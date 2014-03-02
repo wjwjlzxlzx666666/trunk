@@ -1,11 +1,11 @@
-@echo off
+锘緻echo off
 set inputPath=%1
 set outputPath=%2
 
 call :CopyBinFile gameserver.exe gameserver\bin\gameserver.exe
 
 echo ============
-echo 操作成功
+echo 鎿嶄綔鎴愬姛
 echo ============
 pause
 exit 0
@@ -21,7 +21,7 @@ exit /b
 
 : ErrorExit
 echo ============
-echo 操作失败
+echo 鎿嶄綔澶辫触
 echo ============
 pause
 exit -1
