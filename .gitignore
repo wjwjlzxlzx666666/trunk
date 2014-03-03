@@ -1,0 +1,9 @@
+*.ilk
+*.tlog
+*.manifest
+*.res
+*.log
+*.lastbuildstate
+*.cache
+*.rc
+*.idb

@@ -1,5 +1,6 @@
-#include "stdio.h"
-#include "signal.h"
+#include <stdio.h>
+#include <signal.h>
+#include <locale.h>
 
 //gameServer *g_server;
 
@@ -27,8 +28,9 @@
 
 #define DEF_FAIL_HANDLE(name) fail_handle_##name:
 
-#include "windump.h"
-#include "windows.h"
+#ifdef X_OS_WIN
+//#include <windump.h>
+#include <windows.h>
 BOOL WINAPI ctrlHandle(DWORD code)
 {
 	switch(code)

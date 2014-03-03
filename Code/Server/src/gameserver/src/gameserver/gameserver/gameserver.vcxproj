@@ -42,6 +42,7 @@
     <OutDir>../../../bin/Debug/</OutDir>
     <IntDir>../../../int/Debug/$(ProjectName)/</IntDir>
     <TargetName>gameserver</TargetName>
+    <GenerateManifest>false</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
