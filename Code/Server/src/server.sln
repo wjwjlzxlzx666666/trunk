@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameserver", "gameserver\src\gameserver.vcxproj", "{6EE79E3C-3FC6-4BC2-959E-25178385CAC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "net", "net\net.vcxproj", "{578B909E-7D96-4844-8F27-ECE3A9BFFAB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{94711BBA-0A06-4315-A4B7-B5B05D905B39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{CDE6D7BA-030E-485C-A365-041241162E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE79E3C-3FC6-4BC2-959E-25178385CAC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6EE79E3C-3FC6-4BC2-959E-25178385CAC8}.Debug|Win32.Build.0 = Debug|Win32
+		{6EE79E3C-3FC6-4BC2-959E-25178385CAC8}.Release|Win32.ActiveCfg = Release|Win32
+		{6EE79E3C-3FC6-4BC2-959E-25178385CAC8}.Release|Win32.Build.0 = Release|Win32
+		{578B909E-7D96-4844-8F27-ECE3A9BFFAB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{578B909E-7D96-4844-8F27-ECE3A9BFFAB7}.Debug|Win32.Build.0 = Debug|Win32
+		{578B909E-7D96-4844-8F27-ECE3A9BFFAB7}.Release|Win32.ActiveCfg = Release|Win32
+		{578B909E-7D96-4844-8F27-ECE3A9BFFAB7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{578B909E-7D96-4844-8F27-ECE3A9BFFAB7} = {94711BBA-0A06-4315-A4B7-B5B05D905B39}
+		{6EE79E3C-3FC6-4BC2-959E-25178385CAC8} = {CDE6D7BA-030E-485C-A365-041241162E02}
+	EndGlobalSection
+EndGlobal

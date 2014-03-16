@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="netinterface">
+      <UniqueIdentifier>{d9fb8392-398e-46bd-997d-2218f034529f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asioimpl">
+      <UniqueIdentifier>{438ab12d-f757-4901-825c-6f030277c2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{596c0b8a-4d56-42dd-8a94-2294fbb7fcb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\circular_buffer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="netinterface\net.h">
+      <Filter>netinterface</Filter>
+    </ClInclude>
+    <ClInclude Include="netinterface\net_def.h">
+      <Filter>netinterface</Filter>
+    </ClInclude>
+    <ClInclude Include="asioimpl\net_tcp_asio_impl.h">
+      <Filter>asioimpl</Filter>
+    </ClInclude>
+    <ClInclude Include="asioimpl\net_tcp_asio_session_impl.h">
+      <Filter>asioimpl</Filter>
+    </ClInclude>
+    <ClInclude Include="asioimpl\net_tcp_client_asio_impl.h">
+      <Filter>asioimpl</Filter>
+    </ClInclude>
+    <ClInclude Include="asioimpl\net_tcp_server_asio_impl.h">
+      <Filter>asioimpl</Filter>
+    </ClInclude>
+    <ClInclude Include="netinterface\def.h">
+      <Filter>netinterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="netinterface\net.cpp">
+      <Filter>netinterface</Filter>
+    </ClCompile>
+    <ClCompile Include="asioimpl\net_tcp_asio_session_impl.cpp">
+      <Filter>asioimpl</Filter>
+    </ClCompile>
+    <ClCompile Include="asioimpl\net_tcp_client_asio_impl.cpp">
+      <Filter>asioimpl</Filter>
+    </ClCompile>
+    <ClCompile Include="asioimpl\net_tcp_server_asio_impl.cpp">
+      <Filter>asioimpl</Filter>
+    </ClCompile>
+    <ClCompile Include="asioimpl\net_tcp_asio_impl.cpp">
+      <Filter>asioimpl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
